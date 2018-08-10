@@ -1,0 +1,21 @@
+  [user]
+	 username = jamesbong
+	 name = Rio Myers
+	 location = Orbiting around the Sun
+	 website = https://riomyers.com
+	 signingkey = DAF272DEE802EBE45A34D06F2729CB1DB8A14327
+  [commit]
+	 gpgsign = true
+  [aliases]
+	 keybase = jamesbong
+	 reddit = riomyers
+	 github = riomyers
+	 bitbucket = riomyers
+	 gitlab = riomyers
+	 npm = riomyers
+	 twitter = riomyers
+	 instagram = riomyers
+  [alias]
+	 pushall = !git remote | xargs -L1 -I R git push R $2
+  [merge "ours"]
+         driver = true
